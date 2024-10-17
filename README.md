@@ -1,5 +1,7 @@
 Understood. You want to run your FastAPI application on Apache instead of using Uvicorn directly. To do this, we'll need to use WSGI (Web Server Gateway Interface) with Apache. Here's how we can modify your code to work with Apache:
 
+WSGI Info: https://www.fullstackpython.com/wsgi-servers.html
+
 ```python
 import os
 import logging
